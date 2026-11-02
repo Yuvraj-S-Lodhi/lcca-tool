@@ -1,0 +1,71 @@
+{
+  "title": "Illustrative flooring comparison (synthetic validation case 2)",
+  "analysis_years": 30,
+  "discount_rate": 0.08,
+  "alternatives": [
+    {
+      "name": "Vitrified tile",
+      "description": "",
+      "items": [
+        {
+          "name": "Tile floor (supply + lay)",
+          "kind": "capital",
+          "amount": 150000,
+          "category": "Initial",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": 20,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        },
+        {
+          "name": "Cleaning & repairs",
+          "kind": "annual",
+          "amount": 2000,
+          "category": "O&M",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": null,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        }
+      ]
+    },
+    {
+      "name": "Epoxy coating",
+      "description": "",
+      "items": [
+        {
+          "name": "Epoxy floor",
+          "kind": "capital",
+          "amount": 90000,
+          "category": "Initial",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": 8,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        },
+        {
+          "name": "Cleaning & repairs",
+          "kind": "annual",
+          "amount": 3000,
+          "category": "O&M",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": null,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        }
+      ]
+    }
+  ]
+}

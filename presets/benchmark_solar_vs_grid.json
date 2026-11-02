@@ -1,0 +1,149 @@
+{
+  "title": "Benchmark: 2 kWp rooftop PV vs grid, MSEDCL residential 300 kWh/month",
+  "analysis_years": 25,
+  "discount_rate": 0.07,
+  "alternatives": [
+    {
+      "name": "A: Grid only",
+      "description": "All electricity bought from the DISCOM",
+      "items": [
+        {
+          "name": "Electricity bill",
+          "kind": "series",
+          "amount": 0.0,
+          "category": "Energy",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": null,
+          "replace": true,
+          "escalation": 0.03,
+          "series": [
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72,
+            44070.72
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B: Rooftop PV + grid",
+      "description": "2 kWp net-metered PV, balance from grid",
+      "items": [
+        {
+          "name": "PV system (modules, inverter, BoS, installation)",
+          "kind": "capital",
+          "amount": 120000.0,
+          "category": "Initial",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": 25.0,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        },
+        {
+          "name": "PM Surya Ghar subsidy (CFA)",
+          "kind": "once",
+          "amount": -60000.0,
+          "category": "Subsidy",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": null,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        },
+        {
+          "name": "Electricity bill (net import)",
+          "kind": "series",
+          "amount": 0.0,
+          "category": "Energy",
+          "year": 0,
+          "start": 1,
+          "end": null,
+          "life": null,
+          "replace": true,
+          "escalation": 0.03,
+          "series": [
+            6453.312000000001,
+            6546.186240000002,
+            6638.5961088,
+            6730.543928256001,
+            6822.032008614722,
+            6913.062648571649,
+            7003.638135328787,
+            7093.760744652145,
+            7183.4327409288835,
+            7272.656377224239,
+            7361.433895338118,
+            7449.767525861429,
+            7537.659488232122,
+            7625.111990790959,
+            7712.127230837004,
+            7798.70739468282,
+            7884.854657709407,
+            7970.57118442086,
+            8055.859128498756,
+            8140.720632856263,
+            8225.15782969198,
+            8309.172840543522,
+            8392.767776340803,
+            8475.944737459098,
+            8558.705813771805
+          ]
+        },
+        {
+          "name": "PV O&M (cleaning, inspection)",
+          "kind": "annual",
+          "amount": 2000.0,
+          "category": "O&M",
+          "year": 0,
+          "start": 1,
+          "end": 25,
+          "life": null,
+          "replace": true,
+          "escalation": 0.04,
+          "series": null
+        },
+        {
+          "name": "Inverter replacement",
+          "kind": "capital",
+          "amount": 20000.0,
+          "category": "Replacement",
+          "year": 12,
+          "start": 1,
+          "end": null,
+          "life": 12.0,
+          "replace": true,
+          "escalation": 0.0,
+          "series": null
+        }
+      ]
+    }
+  ]
+}
